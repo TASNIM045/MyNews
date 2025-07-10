@@ -1,0 +1,166 @@
+[
+    {
+        "model": "article.category",
+        "pk": 1,
+        "fields": {
+            "name": "Technology",
+            "description": "Articles about the latest in tech and innovation"
+        }
+    },
+    {
+        "model": "article.category",
+        "pk": 2,
+        "fields": {
+            "name": "Lifestyle",
+            "description": "Articles covering fashion, health, and daily living"
+        }
+    },
+    {
+        "model": "article.category",
+        "pk": 3,
+        "fields": {
+            "name": "Science",
+            "description": "Articles on scientific discoveries and research"
+        }
+    },
+    {
+        "model": "article.category",
+        "pk": 4,
+        "fields": {
+            "name": "Entertainment",
+            "description": "Articles about movies, music, and pop culture"
+        }
+    },
+    {
+        "model": "article.article",
+        "pk": 1,
+        "fields": {
+            "headline": "The Rise of Quantum Computing",
+            "body": "Quantum computing is poised to revolutionize technology with unprecedented processing power.",
+            "category": 1,
+            "publishing_time": "2025-03-01T10:00:00",
+            "rating": 5
+        }
+    },
+    {
+        "model": "article.article",
+        "pk": 2,
+        "fields": {
+            "headline": "AI Breakthroughs in 2025",
+            "body": "Artificial intelligence continues to evolve, with new models transforming industries.",
+            "category": 1,
+            "publishing_time": "2025-03-02T12:30:00",
+            "rating": 4
+        }
+    },
+    {
+        "model": "article.article",
+        "pk": 3,
+        "fields": {
+            "headline": "Next-Gen Smartphones Unveiled",
+            "body": "The latest smartphones feature cutting-edge displays and AI integration.",
+            "category": 1,
+            "publishing_time": "2025-03-03T09:00:00",
+            "rating": 4
+        }
+    },
+    {
+        "model": "article.article",
+        "pk": 4,
+        "fields": {
+            "headline": "Top Fashion Trends for Spring 2025",
+            "body": "This season's fashion trends include bold colors and sustainable fabrics.",
+            "category": 2,
+            "publishing_time": "2025-03-04T14:20:00",
+            "rating": 3
+        }
+    },
+    {
+        "model": "article.article",
+        "pk": 5,
+        "fields": {
+            "headline": "Healthy Eating Tips for Busy Professionals",
+            "body": "Learn how to maintain a balanced diet with a hectic schedule.",
+            "category": 2,
+            "publishing_time": "2025-03-05T11:45:00",
+            "rating": 4
+        }
+    },
+    {
+        "model": "article.article",
+        "pk": 6,
+        "fields": {
+            "headline": "Mindfulness Practices for Daily Life",
+            "body": "Incorporate mindfulness to reduce stress and improve focus.",
+            "category": 2,
+            "publishing_time": "2025-03-06T08:00:00",
+            "rating": 3
+        }
+    },
+    {
+        "model": "article.article",
+        "pk": 7,
+        "fields": {
+            "headline": "New Exoplanet Discovery Excites Astronomers",
+            "body": "Scientists have found a potentially habitable exoplanet 12 light-years away.",
+            "category": 3,
+            "publishing_time": "2025-03-07T10:15:00",
+            "rating": 5
+        }
+    },
+    {
+        "model": "article.article",
+        "pk": 8,
+        "fields": {
+            "headline": "Breakthrough in Renewable Energy Storage",
+            "body": "A new battery technology could make renewable energy more reliable.",
+            "category": 3,
+            "publishing_time": "2025-03-08T13:30:00",
+            "rating": 4
+        }
+    },
+    {
+        "model": "article.article",
+        "pk": 9,
+        "fields": {
+            "headline": "Advances in Genetic Research",
+            "body": "New gene-editing techniques promise breakthroughs in medicine.",
+            "category": 3,
+            "publishing_time": "2025-03-09T15:00:00",
+            "rating": 5
+        }
+    },
+    {
+        "model": "article.article",
+        "pk": 10,
+        "fields": {
+            "headline": "Summer Blockbusters to Watch in 2025",
+            "body": "This summer's movies promise action, drama, and stunning visuals.",
+            "category": 4,
+            "publishing_time": "2025-03-10T16:00:00",
+            "rating": 3
+        }
+    },
+    {
+        "model": "article.article",
+        "pk": 11,
+        "fields": {
+            "headline": "The Evolution of Music Streaming",
+            "body": "Streaming platforms are changing how we discover and enjoy music.",
+            "category": 4,
+            "publishing_time": "2025-03-11T13:10:00",
+            "rating": 4
+        }
+    },
+    {
+        "model": "article.article",
+        "pk": 12,
+        "fields": {
+            "headline": "Behind the Scenes of 2025's Top TV Shows",
+            "body": "Get an inside look at the making of this year's hit series.",
+            "category": 4,
+            "publishing_time": "2025-03-12T11:20:00",
+            "rating": 4
+        }
+    }
+]
