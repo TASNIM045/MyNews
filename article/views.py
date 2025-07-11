@@ -28,9 +28,9 @@ class RatingViewSet(ModelViewSet):
         serializer.save(user=self.request.user)
 
     def get_queryset(self):
-        return Rating.objects.filter(article_id=self.kwargs['article_pk'])
+        return Rating.objects.filter(article_id=self.kwargs.get('article_pk'))
 
     def get_serializer_context(self):
         context = super().get_serializer_context()
-        context['article_id'] = self.kwargs['article_pk']
+        context['article_id'] = self.kwargs.get('article_pk')
         return context
